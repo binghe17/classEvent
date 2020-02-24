@@ -1,0 +1,13 @@
+#controls {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: 2em 2em 2em 10em 2em 2em;
+}
+
+#targets div {
+	border: 1px dashed #ccc;
+	padding: 1em;
+	background-color: #0002;
+	min-height: 2em;
+	min-width: 20em;
+}
